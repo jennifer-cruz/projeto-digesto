@@ -1,0 +1,66 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #E1E1E1;
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+
+.logo {
+    width: 220px;
+}
+
+.texto-inf {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 5%;
+}
+
+.caixa-texto {
+    font-size: 14px;
+    padding: 6px;
+    color: #920606;
+    border: 1px solid #333;
+    margin-top: 5%;
+}
+
+::placeholder {
+    color: rgb(99, 84, 84);
+    text-align: center;
+}
+
+.enviar {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    background-color: #920606;
+    border-radius: 15px;
+    border: transparent;
+    padding: 6px 12px;
+}
+
+@media (max-width: 400px) {
+    .logo {
+        width: 90%;
+    }
+
+    .texto-inf {
+        font-size: 10px;
+    }
+
+    .caixa-texto {
+        width: 50%;
+        font-size: 9px;
+        padding: 2px;
+    }
+
+    .enviar {
+        width: 30%;
+        font-size: 9px;
+        padding: 4px;
+    }
+
+}
